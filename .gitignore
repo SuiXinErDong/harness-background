@@ -1,0 +1,14 @@
+# dependencies / local artifacts
+node_modules/
+.pnpm-store/
+
+# logs & temp
+*.log
+*.bak
+*.zip
+.DS_Store
+Thumbs.db
+
+# local harness state (never commit)
+.dsh/
+profiles/
