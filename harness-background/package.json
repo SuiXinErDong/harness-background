@@ -1,0 +1,23 @@
+{
+    "name":  "harness-background",
+    "version":  "0.2.0",
+    "description":  "Session background image for the DeepSeek Harness web UI: pick a local file or a network URL, adjust the opacity, and choose how the image fits (cover / contain). Settings persist in the browser.",
+    "type":  "module",
+    "main":  "lib/index.js",
+    "exports":  {
+                    ".":  "./lib/index.js",
+                    "./client":  "./lib/client.js",
+                    "./package.json":  "./package.json"
+                },
+    "dsh":  {
+                "client":  {
+                               "platform":  "web"
+                           }
+            },
+    "license":  "MIT",
+    "repository":  {
+                       "type":  "git",
+                       "url":  "https://github.com/SuiXinErDong/harness-background.git"
+                   },
+    "homepage":  "https://github.com/SuiXinErDong/harness-background"
+}
